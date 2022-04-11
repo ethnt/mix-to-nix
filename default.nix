@@ -144,7 +144,7 @@ let
   fakeHexOverride = final: name: prev:
     fakeHexOverrideImpl prev (getAttr name final);
 
-  binwalk = python3Packages.binwalk.override {
+  binwalk = python38Packages.binwalk.override {
     pyqtgraph = null;
   };
 
