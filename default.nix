@@ -1,5 +1,5 @@
 { stdenv, fetchurl, fetchzip, runCommand, beamPackages, glibcLocales
-, python3Packages, writeShellScriptBin, writeText, lib }:
+, python38Packages, writeShellScriptBin, writeText, lib }:
 
 with lib;
 
